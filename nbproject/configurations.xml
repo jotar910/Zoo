@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>auxAnimais.h</itemPath>
+      <itemPath>auxAreas.h</itemPath>
+      <itemPath>funcAnimais.h</itemPath>
+      <itemPath>funcAreas.h</itemPath>
+      <itemPath>funcExtra.h</itemPath>
+      <itemPath>listAnimais.h</itemPath>
+      <itemPath>memLoadSave.h</itemPath>
+      <itemPath>menus.h</itemPath>
+      <itemPath>vars.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>auxAnimais.c</itemPath>
+      <itemPath>auxAreas.c</itemPath>
+      <itemPath>funcAnimais.c</itemPath>
+      <itemPath>funcAreas.c</itemPath>
+      <itemPath>funcExtra.c</itemPath>
+      <itemPath>listAnimais.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>memLoadSave.c</itemPath>
+      <itemPath>menus.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="auxAnimais.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="auxAnimais.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="auxAreas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="auxAreas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="funcAnimais.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcAnimais.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="funcAreas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcAreas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="funcExtra.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcExtra.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="listAnimais.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="listAnimais.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="memLoadSave.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="memLoadSave.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="menus.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vars.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="auxAnimais.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="auxAnimais.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="auxAreas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="auxAreas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="funcAnimais.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcAnimais.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="funcAreas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcAreas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="funcExtra.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcExtra.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="listAnimais.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="listAnimais.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="memLoadSave.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="memLoadSave.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="menus.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vars.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -91,7 +91,7 @@ int main(int argc, char** argv) {
 								verificaDelAnimal(areas, total_areas, especies, extra);
 								break;
 							case 4:
-								verificaNascerAnimal(areas, total_areas, extra);
+								verificaNascerAnimal(areas, total_areas);
 								break;
 							case 5:
 								especies = addAnimalFich(areas, total_areas, especies, extra);
